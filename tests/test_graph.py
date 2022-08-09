@@ -199,8 +199,6 @@ class TestBFS:
 
         assert bfs_values(g) == ['a', 'b', 'c', 'd', 'f', 'e']
 
-        assert bfs_values(g) == ['a', 'b', 'c', 'd', 'f', 'e']
-
     def test_bfs_7(self):
         a = Node('a')
         b = Node('b')
