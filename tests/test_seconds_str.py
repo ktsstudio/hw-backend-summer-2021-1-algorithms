@@ -14,5 +14,5 @@ import tasks
     (93600, '01d02h00m00s'),
     (864000, '10d00h00m00s'),
 ])
-def test_prime(seconds, result):
+def test_seconds_to_str(seconds, result):
     assert tasks.seconds_to_str(seconds) == result
